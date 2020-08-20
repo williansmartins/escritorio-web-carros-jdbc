@@ -1,0 +1,10 @@
+CREATE TABLE waisoc_teste.carros (
+	id INT auto_increment NOT NULL,
+	fabricante varchar(100) NULL,
+	modelo varchar(100) NULL,
+	ano varchar(100) NULL,
+	CONSTRAINT carros_PK PRIMARY KEY (id)
+)
+ENGINE=MyISAM
+DEFAULT CHARSET=latin1
+COLLATE=latin1_swedish_ci;
